@@ -1,4 +1,4 @@
-FROM amitie10g/msys2-mingw-w64-gcc:20H2 AS download
+FROM amitie10g/msys2-mingw-w64-gcc AS download
 
 # Set the PATH env
 RUN setx path "%path%;C:\msys64;C:\msys64\usr\bin;C:\msys64\mingw64\bin"
