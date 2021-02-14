@@ -11,6 +11,9 @@ RUN bash -c "git clone --depth=1 --branch=master https://github.com/sm64-port/sm
 FROM amitie10g/msys2-mingw-w64-gcc:20H2
 
 RUN bash -c "pacman --noconfirm -S python3 && rm -r /var/cache/pacman/pkg/*"
+WORKDIR C:\\msys64\\home\\sm64\\
+RUN bash -c "pacman --noconfirm -S python3 git"
+RUN bash -c "git clone --depth=1 --branch=master https://github.com/sm64-port/sm64-port.git && rm -fr sm64-port/.git"
 
 COPY build.sh C:\\msys64\\home\\sm64\\sm64-port\\build.sh
 COPY --from=download C:\\msys64\\tmp\\sm64-port C:\\msys64\\home\\sm64\\sm64-port
