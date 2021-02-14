@@ -1,5 +1,7 @@
 #!/bin/bash
 
+TARGET=${TARGET:-win64}
+
 if ln -s /home/sm64/data/* . ; then
 	if make VERSION="${VERSION:-us}"; then
 		cp build/*_pc/sm64* /home/sm64/data/
