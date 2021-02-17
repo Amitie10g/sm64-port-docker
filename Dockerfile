@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-FROM amitie10g/msys2-mingw-w64-gcc:ubuntu AS download
+FROM amitie10g/mingw-w64-gcc:ubuntu AS download
 
 # Don't ask for anything
 ARG DEBIAN_FRONTEND=noninteractive
