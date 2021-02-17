@@ -1,4 +1,4 @@
-FROM amitie10g/msys2-mingw-w64-gcc
+FROM amitie10g/mingw-w64-gcc
 
 # Download required packages
 RUN bash -c "pacman --noconfirm -S python3 && rm -r /var/cache/pacman/pkg/*"
