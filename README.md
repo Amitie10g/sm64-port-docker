@@ -1,5 +1,5 @@
-# sm64-port-docker
-This is an attemp to bring the [sm64-port](https://github.com/sm64-port/sm64-port) source tree and build tools onto a Windows Server Docker image.
+# sm64-port in Docker container
+This is an attemp to bring the [sm64-port](https://github.com/sm64-port/sm64-port) (Super Mario 64 port for PC) source tree and build tools onto a Windows Server Docker image.
 
 Currently, only [Windows Server Core](https://hub.docker.com/_/microsoft-windows-servercore) is suported, as any MSYS executable is unable to run under [Nano Server](https://hub.docker.com/_/microsoft-windows-nanoserver).
 
