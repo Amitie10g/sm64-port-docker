@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env busybox sh
 
 if ln -s /home/sm64/data/* . &> /dev/null ; then
 	if make VERSION="${VERSION:-us}"; then
