@@ -11,4 +11,4 @@ COPY build.sh C:\\Users\\ContainerUser\\sm64-port\\build.sh
 
 WORKDIR C:\\Users\\ContainerUser\\sm64-port
 ENV MSYSTEM=MINGW64
-CMD ["bash", "/home/sm64/sm64-port/build.sh"]	
+CMD ["bash", "/home/sm64/sm64-port/build.sh"]
