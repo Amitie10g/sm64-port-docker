@@ -4,7 +4,7 @@ This is an attemp to bring the [sm64-port](https://github.com/sm64-port/sm64-por
 Currently, only [Windows Server Core](https://hub.docker.com/_/microsoft-windows-servercore) is suported, as any MSYS executable is unable to run under [Nano Server](https://hub.docker.com/_/microsoft-windows-nanoserver).
 
 ## Caveats
-The Windows-based Image is HUUUUUUGE due the use of Windows Server Core base image and then MinGW toolchain used.
+Due the Windows Server Core base image, this image is HUUUUUGE. I'm researching how to use Nano Server instead.
 
 ## Licensing
 * The **Dockerfile** has been released into the **public domain** (the Unlicense)
